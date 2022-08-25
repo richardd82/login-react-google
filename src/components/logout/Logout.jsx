@@ -12,7 +12,8 @@ function Logout() {
 	}, []);
 
 	const onSuccess = (res) => {
-		alert("Logout Successfully", res);
+		alert("Logout Successfully");
+		console.log(res)
 	};
 
 	return (
